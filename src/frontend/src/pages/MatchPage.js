@@ -18,7 +18,7 @@ export const MatchPage = () => {
             fetchMathesByYear();
 
 
-        }, [teamName]
+        }, [teamName, year]
     );
 
 
@@ -31,3 +31,4 @@ export const MatchPage = () => {
 }
 
 // url - http://localhost:8080/team/Sunrisers%20Hyderabad/matches?year=2019
+//     - http://localhost:3000/team/Mumbai%20Indians/matches?year=2019
