@@ -19,11 +19,11 @@ https://www.kaggle.com/
 
 ### Team Page
 
-![](team-page.JPG)
+![](team-page.jpg)
 
 ### Matches Page
 
-![](matches-page.JPG)
+![](matches-page.jpg)
 
 ## React Dependency
 
