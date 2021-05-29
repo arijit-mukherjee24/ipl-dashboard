@@ -16,7 +16,7 @@ export const YearSelector = ({teamName}) => {
     return (
         <ol className="YearSelector">
             {  years.map(year => 
-                 <li key={Math.floor(Math.random() * 10000)}>
+                 <li key={year}>
                     <Link to={`/team/${teamName}/matches/${year}`}> {year} </Link>
                 </li>
                 )

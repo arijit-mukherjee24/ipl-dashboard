@@ -1,5 +1,6 @@
 import './App.scss';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+// Replacing BrowserRouter with HashRouter for enabling React routing with hash
 import { TeamPage } from './pages/TeamPage';
 import { HomePage } from './pages/HomePage';
 import { MatchPage } from './pages/MatchPage';
